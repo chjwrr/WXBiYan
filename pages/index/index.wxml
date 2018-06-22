@@ -1,0 +1,4 @@
+<image class='bgimage' src='{{src}}' mode='aspectFill' bindlongpress='imageLongTap' bindtap='imageTap'></image>
+<view class='textView' bindtap='textViewTap'>
+  <text class='text' bindlongtap='textLongTap'>{{content}}</text>
+</view> 

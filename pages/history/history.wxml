@@ -1,0 +1,7 @@
+<!--pages/history/history.wxml-->
+<!-- <image class='bgimage' style='background-image: url({{src}})' mode='aspectFill' />
+<view class='bgView'></view> -->
+<view class='textView' wx:for="{{history}}" wx:key="{{item.content}}" >
+    <text class='text' bindlongpress='textLongTap' data-data='{{item.content}}'>{{item.content}}</text>
+    <view class='line' />
+</view>
