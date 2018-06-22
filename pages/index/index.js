@@ -154,7 +154,7 @@ Page({
     return {
       title: '壁言',
       desc: this.data.content,
-      path: '/page/index/index'
+      path: '/pages/index/index'
     }
   },
   // 提示Toast
